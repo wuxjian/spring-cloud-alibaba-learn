@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="the.wuxjian.usercenter.mapper.CategoryMapper">
+  <resultMap id="BaseResultMap" type="the.wuxjian.usercenter.domain.entity.Category">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="label" jdbcType="VARCHAR" property="label" />
+    <result column="seq" jdbcType="SMALLINT" property="seq" />
+    <result column="enable" jdbcType="CHAR" property="enable" />
+  </resultMap>
+</mapper>

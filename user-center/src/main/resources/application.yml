@@ -7,3 +7,9 @@ spring:
         server-addr: 127.0.0.1:9848
   application:
     name: user-center
+  # \u6570\u636E\u5E93\u914D\u7F6E
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/user-center
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
